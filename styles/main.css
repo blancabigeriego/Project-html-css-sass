@@ -1,0 +1,46 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    min-width: 320px;
+    max-width: 768px;
+}
+
+.main {
+    text-align: center;
+    margin: 0 15px;
+}
+
+.hightlight {
+    font-family: 'Rubik', sans-serif;
+}
+
+.text {
+    line-height: 24px;
+}
+
+.team {
+    padding: 30px 0;
+    background-color: white;
+}
+
+.team .title-team {
+    color: #14d9c4;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.team .team-text1 {
+    padding-bottom: 15px;
+}
+
+.rectangle {
+    width: 30px;
+    height: 30px;
+    margin-top: 14.2px;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    transform: rotate(45deg) translate(-100%,-50%);
+    
+}
