@@ -25,30 +25,23 @@
 
   <body>
     <header class="header">
-      <div class="contain">
-        <h1 class="hightlight title">Nombre del grupo</h1>
-        <nav class="menu">
-          <ul class="container">
-            <li class="item hightlight"><a href="#" class="link">equipo</a></li>
-            <li class="item hightlight">
-              <a href="#" class="link">quienes somos</a>
-            </li>
-            <li class="item hightlight">
-              <a href="#" class="link">contacto</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <h1 class="title">Stranger coders</h1>
+      <nav class="menu">
+        <a href="./index.html#team" class="link-menu">Equipo</a>
+        <a href="./index.html#people" class="link-menu">Quiénes somos</a>
+        <a href="./contact.html" class="link-menu" target="_blank">Contacto</a>
+      </nav>
     </header>
 
     <main class="main">
       <section class="hero">
         <div class="rectangle-hero">
+          <img class="image-hero" src="./images/" alt="" />
           <h3 class="claim">Programar como estilo de vida</h3>
         </div>
       </section>
 
-      <section class="team">
+      <section class="team" id="team">
         <div class="contain">
           <h2 class="title-team hightlight">STRANGER CODERS</h2>
           <p class="text team-text team-text1">
@@ -91,7 +84,7 @@
         </div>
       </section>
 
-      <section class="container people">
+      <section class="container people" id="people">
         <div class="contain">
           <h2 class="title-people">QUIÉNES SOMOS</h2>
           <section class="person person-left">
@@ -298,18 +291,25 @@
       </section>
     </main>
 
+    <hr />
     <footer class="footer">
-      <div class="contain">
-        <p class="company-name">Nombre de la empresa</p>
-        <nav class="menu">
-          <ul class="container">
-            <li class="item"><a href="" class="link">equipo</a></li>
-            <li class="item"><a href="" class="link">quiénes somos</a></li>
-            <li class="item"><a href="" class="link">contacto</a></li>
-          </ul>
-        </nav>
-        <img class="logo" src="./images/logo-adalab.png" alt="Logo Adalab" />
+      <div class="company-name-logo">
+        <p class="company-name-resp">Stranger Coders ©2022</p>
+        <img
+          class="logo-resp"
+          src="./images/logo-adalab.png"
+          alt="Logo Adalab"
+        />
       </div>
+
+      <p class="company-name">Stranger Coders ©2022</p>
+
+      <nav class="menu">
+        <a href="./index.html#team" class="link-menu">Equipo</a>
+        <a href="./index.html#people" class="link-menu">Quiénes somos</a>
+        <a href="./contact.html" class="link-menu" target="_blank">Contacto</a>
+      </nav>
+      <img class="logo" src="./images/logo-adalab.png" alt="Logo Adalab" />
     </footer>
   </body>
 </html>

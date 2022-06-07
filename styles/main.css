@@ -335,3 +335,181 @@ html {
    }
    
 
+/* ---------HEADER Y FOOTER RESPONSIVE: ROCÍO */
+
+.header {
+    background-color: #099d8d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik';
+text-transform: uppercase;
+border-radius: 5px;
+position: sticky;
+top: 0;
+}
+
+.header .title {
+padding: 1rem;
+}
+
+.header .menu {
+    background-color: #14d9c4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.header .link-menu {
+    font-family: 'Rubik';
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.link-menu:hover {
+    color: gainsboro;
+}
+
+.footer {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+}
+
+.footer .company-name, .footer .company-name-resp {
+padding: 1rem;
+color: #b8b8b9;
+
+}
+
+.footer .logo, .footer .logo-resp {
+    width: 10rem;
+    padding-bottom: 2rem;
+}
+.footer .company-name-logo {
+    display: none;
+}
+
+.footer .menu {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.footer .link-menu {
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-weight:500;
+}
+
+.footer .link-menu:hover {
+    color: gainsboro;
+}
+
+@media all and (min-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        border-radius: 5px;
+    }
+
+    .header .title {
+       white-space: nowrap;
+    }
+
+    .header .menu {
+        background-color: #099d8d;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 1rem;
+        padding-right: 5rem;
+        line-height: 2rem;
+    }
+
+    .footer {
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    }
+
+    .footer .company-name-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+ gap: 0.5rem;
+ padding: 1rem;
+    }
+
+    .footer .logo, .footer .company-name {
+        display: none;
+    }
+
+    .footer .menu {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.5rem;
+        text-align: right;
+        padding-right: 4rem;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        border-radius: 5px;
+        padding-left: 3rem;
+    }
+
+    .header .title {
+       white-space: nowrap;
+    }
+
+    .header .menu {
+        background-color: #099d8d;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 1rem;
+        padding-right: 6rem;
+    }
+
+    .footer {
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    }
+
+    .footer .company-name-logo {
+        display: block;
+        padding-left: 7rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+    .footer .logo, .footer .company-name {
+        display: none;
+    }
+
+    .footer .menu {
+        text-align: right;
+        padding-right: 9rem;
+    }
+}
+
