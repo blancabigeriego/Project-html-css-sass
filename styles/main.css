@@ -7,6 +7,10 @@ html{
   font-family: "Open Sans", sans-serif;  
 }
 
+
+
+
+
 .main .strengths-weaknesses{
     background-color: hsl(240, 1%, 72%, 20%);
     padding: 30px 15px 45px 15px;
@@ -96,3 +100,11 @@ color: var(--dark-green);
 text-decoration: none;
 padding: 10px;
 }
+
+
+@media all and (min-width: 768px) {
+    .main .strengths-weaknesses {
+        display: flex;
+    }
+}
+
