@@ -9,17 +9,14 @@ html {
     min-width: 320px; 
 }
 
-.main {
+
+/* ------TEAMS: SANDRA */
+
+.contain {
     text-align: center;
     width: 70%;
     margin: 0 auto;
 }
-
-/* .contain {
-     text-align: center;
-    width: 70%;
-    margin: 0 auto;
-} */
 
 .hightlight {
     font-family: 'Rubik', sans-serif;
@@ -30,7 +27,7 @@ html {
 }
 
 .team {
-    padding: 30px 0;
+    /* padding: 30px 0; */
     background-color: white;
     width: 100;
 }
@@ -54,10 +51,41 @@ html {
     background-color: white;
     position: relative;
     left: 50%;
+    top: 3rem;
     transform: rotate(45deg) translate(-100%,-50%);
 }
     
 
+
+/* -----------STRENGTHS & WEAKNESSES: BLANCA */
+
+.main .strengths-weaknesses {
+    background-color: hsl(240, 1%, 72%, 20%);
+    padding: 0px 15px 45px 15px;
+}
+
+.main .titlesw {
+    color: #099d8d;
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    line-height: 45px;
+    padding-top: 30px;
+}
+
+.main .textsw{
+    
+    font-size: 16px;
+    line-height: 24px;
+    color: #54585a;
+    text-align: center;
+}
+
+
+
+
+/* ----------PEOPLE: MIRIAM */
 
 .title-people{
     color: var(--dark-green);
@@ -112,3 +140,5 @@ color: var(--dark-green);
 text-decoration: none;
 padding: 10px;
 }
+
+
