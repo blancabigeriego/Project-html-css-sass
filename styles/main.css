@@ -4,12 +4,52 @@
     --aqua: #14d9c4;
     }
 
+
 html {
     font-family: 'Open Sans', sans-serif;
     color: #54585a;
     width: 100vw;
     min-width: 320px; 
 }
+
+
+.header{
+    position: absolute;
+}
+
+
+/* ------ HERO: YAIZA */
+
+.hero {
+    background-image: url(../images/Cabecera-Blog-de-Adalab.png);
+    width: 100%;
+    height: 26.313rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.rectangle-hero{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.claim {
+    height: 3.125rem;
+    margin-top: -1.25rem;
+    font-weight: 600;
+    padding: 1rem;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: normal;
+    position: sticky;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+
 
 
 /* ------TEAMS: SANDRA */
@@ -39,7 +79,7 @@ html {
     line-height: 45px;
     font-weight: 500;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .team .team-text1 {
@@ -57,7 +97,7 @@ html {
     top: 3rem;
     transform: rotate(45deg) translate(-100%,-50%);
 }
-    
+ 
 
 
 /* -----------STRENGTHS & WEAKNESSES: BLANCA */
@@ -168,6 +208,14 @@ html {
 
 @media all and (min-width: 768px) {
 
+    /* ------RESPONSIVE YAIZA */ 
+    .rectangle-hero{
+        width: 44%;
+        margin-left: 46px;
+        opacity: 0.8;
+    }
+
+
      /* ------RESPONSIVE SANDRA */  
 
      .contain {
@@ -238,6 +286,20 @@ html {
 
 
 @media all and (min-width: 1200px) {
+
+    /* ------RESPONSIVE YAIZA */ 
+    .rectangle-hero{
+        width: 44%;
+        margin-left: 100px;
+        opacity: 0.8;
+    }
+
+    .claim {
+        font-size: x-large;
+        height: 75px;
+    }
+
+
    
     /* ------RESPONSIVE SANDRA */  
     .contain {
