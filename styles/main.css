@@ -33,6 +33,7 @@ html {
     width: 85%;
     margin: 0 auto;
     text-align: center;
+    transform: translate(0%, 50%);
 }
 
 .claim {
@@ -290,13 +291,13 @@ html {
     /* ------RESPONSIVE YAIZA */ 
     .rectangle-hero{
         width: 44%;
-        margin-left: 100px;
         opacity: 0.8;
+        
     }
 
     .claim {
         font-size: x-large;
-        height: 75px;
+        height: 80px;
     }
 
 
