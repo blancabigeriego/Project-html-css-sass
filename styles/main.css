@@ -116,9 +116,6 @@ html {
     border-radius: 0.25rem;
 }
 
-.photo-container{
-    padding-top: 1.25rem;
-}
 
 .people .name{
     font-family: 'Open Sans', sans-serif;
@@ -131,12 +128,11 @@ html {
 }
 
 .person .description {
-    width: 290px;
-    font-size: 16px;
+   
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     line-height: 24px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .socialmedia {
@@ -200,8 +196,9 @@ html {
     .person-left {
         display: flex;
         flex-direction: row;
+        justify-content: flex-start;
         margin: 2.75rem;
-        text-align: left;
+        text-align: left; 
     }
 
     .person-right{
@@ -209,30 +206,52 @@ html {
         flex-direction: row-reverse;
         justify-content: flex-start;
         margin: 2.75rem;
-        text-align: right;  
+        text-align: right;
     }
-    
+   
+    .photo-container{
+        height: 14rem;
+        width: 14rem;
+    }
     .text-container{
-        padding: 1.25rem;
+        padding: 0 1.25rem;
+        
     }
 
-    .socialmedia-left{
+    .person-left .name{
+        text-align: left;
+        padding: 0;
+    }
+
+    .person-left .description{
+        text-align: left;
+    }
+
+    .person-right .name{
+        text-align: right;
+        padding: 0;
+    }
+
+    .person-right .description{
+        text-align: right;
+       
+        
+    }
+   .socialmedia-left{
         justify-content: flex-start;
+        padding-left: 0;
     }
 
     .socialmedia-right{
         justify-content: flex-end;
-    }
+        padding-right: 0;
+    } */
 
-    .person .description{
-        padding: 0;
-        max-width: 27.4375rem;
     }
     .container{
         margin: 2.8125rem;
     }
-}
-    
+
 
 
 
@@ -268,7 +287,10 @@ html {
     .container{
         margin: 8.625rem;
     }
-       
-   }
    
+    .text-container{
+        min-width: 400px;
+        
 
+    }
+   }
