@@ -40,10 +40,11 @@ html  {
     height: 3.125rem;
     margin-top: -1.25rem;
     font-weight: 600;
+    font-size: 1.125rem;
     padding: 1rem;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.7;
+    line-height: 1.5rem;
     letter-spacing: normal;
     position: sticky;
     justify-content: center;
@@ -55,11 +56,13 @@ html  {
 
 /* ------TEAMS: SANDRA */
 
-.contain {
+/* .contain {
     text-align: center;
-    width: 70%;
-    margin: 0 auto;
-}
+    width: 100%;
+    margin: 0 15px;
+} */
+
+
 
 .hightlight {
     font-family: 'Rubik', sans-serif;
@@ -67,6 +70,7 @@ html  {
 
 .text {
     line-height: 24px;
+    text-align: center;
 }
 
 .team {
@@ -97,7 +101,7 @@ html  {
     left: 50%;
     top: 3rem;
     transform: rotate(45deg) translate(-100%,-50%);
-}
+} 
  
 
 
@@ -106,6 +110,7 @@ html  {
 .main .strengths-weaknesses {
     background-color: hsl(240, 1%, 72%, 20%);
     padding: 0px 15px 45px 15px;
+    
 }
 
 .main .titlesw {
@@ -295,13 +300,17 @@ color: #b8b8b9;
 
      /* ------RESPONSIVE SANDRA */  
 
-     .contain {
-        width: 88.2%;
-        margin: 0 auto;
-    }
+     
+   .rectangle {
+       margin :0px;
+       top: 90px;
 
-    .team .contain {
-            margin: 45px auto  60px;
+       
+   }
+
+    .team .people {
+            margin: 0px 45px 0px 45px;
+            padding: 0px;
     }
     
     .text {
@@ -315,10 +324,12 @@ color: #b8b8b9;
 
     /* ------RESPONSIVE BLANCA */
         
-    .main .strengths-weaknesses .contain {
+    .main .strengths-weaknesses .people {
         display: flex;
-        gap: 40px;
-    }
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+      }
 
     /* ------RESPONSIVE MIRIAM */ 
     
@@ -457,7 +468,12 @@ color: #b8b8b9;
     
     .main .strengths-weaknesses .contain {
         width: 80%;
+    .
     }
+
+
+
+
 
 
     /* ------RESPONSIVE MIRIAM */
