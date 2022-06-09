@@ -4,12 +4,53 @@
     --aqua: #14d9c4;
     }
 
-html {
+
+htmlgit  {
     font-family: 'Open Sans', sans-serif;
     color: #54585a;
     width: 100vw;
     min-width: 320px; 
 }
+
+
+.header{
+    position: absolute;
+}
+
+
+/* ------ HERO: YAIZA */
+
+.hero {
+    background-image: url(../images/Cabecera-Blog-de-Adalab.png);
+    width: 100%;
+    height: 26.313rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.rectangle-hero{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    transform: translate(0%, 50%);
+}
+
+.claim {
+    height: 3.125rem;
+    margin-top: -1.25rem;
+    font-weight: 600;
+    padding: 1rem;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: normal;
+    position: sticky;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+
 
 
 /* ------TEAMS: SANDRA */
@@ -39,7 +80,7 @@ html {
     line-height: 45px;
     font-weight: 500;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .team .team-text1 {
@@ -57,7 +98,7 @@ html {
     top: 3rem;
     transform: rotate(45deg) translate(-100%,-50%);
 }
-    
+ 
 
 
 /* -----------STRENGTHS & WEAKNESSES: BLANCA */
@@ -164,6 +205,15 @@ html {
 
 @media all and (min-width: 768px) {
 
+    /* ------RESPONSIVE YAIZA */ 
+    .rectangle-hero{
+        width: 44%;
+        margin-left: 46px;
+        opacity: 0.8;
+        transform: none;
+    }
+
+
      /* ------RESPONSIVE SANDRA */  
 
      .contain {
@@ -257,6 +307,20 @@ html {
 
 
 @media all and (min-width: 1200px) {
+
+    /* ------RESPONSIVE YAIZA */ 
+    .rectangle-hero{
+        width: 44%;
+        opacity: 0.8;
+        transform: none;
+    }
+
+    .claim {
+        font-size: x-large;
+        height: 80px;
+    }
+
+
    
     /* ------RESPONSIVE SANDRA */  
     .contain {
@@ -292,5 +356,183 @@ html {
         min-width: 400px;
         
 
+/* ---------HEADER Y FOOTER RESPONSIVE: ROCÍO */
+
+.header {
+    background-color: #099d8d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik';
+    text-transform: uppercase;
+    border-radius: 5px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.header .title {
+    padding: 1rem;
+}
+
+.header .menu {
+    background-color: #14d9c4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.header .link-menu {
+    font-family: 'Rubik';
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.link-menu:hover {
+    color: gainsboro;
+}
+
+.footer {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+}
+
+.footer .company-name, .footer .company-name-resp {
+padding: 1rem;
+color: #b8b8b9;
+
+}
+
+.footer .logo, .footer .logo-resp {
+    width: 10rem;
+    padding-bottom: 2rem;
+}
+.footer .company-name-logo {
+    display: none;
+}
+
+.footer .menu {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.footer .link-menu {
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-weight:500;
+}
+
+.footer .link-menu:hover {
+    color: gainsboro;
+}
+
+@media all and (min-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        border-radius: 5px;
     }
-   }
+
+    .header .title {
+       white-space: nowrap;
+    }
+
+    .header .menu {
+        background-color: #099d8d;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 1rem;
+        padding-right: 5rem;
+        line-height: 2rem;
+    }
+
+    .footer {
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    }
+
+    .footer .company-name-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+ gap: 0.5rem;
+ padding: 1rem;
+    }
+
+    .footer .logo, .footer .company-name {
+        display: none;
+    }
+
+    .footer .menu {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.5rem;
+        text-align: right;
+        padding-right: 4rem;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        border-radius: 5px;
+        padding-left: 3rem;
+    }
+
+    .header .title {
+       white-space: nowrap;
+    }
+
+    .header .menu {
+        background-color: #099d8d;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 1rem;
+        padding-right: 6rem;
+    }
+
+    .footer {
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    }
+
+    .footer .company-name-logo {
+        display: block;
+        padding-left: 7rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+    .footer .logo, .footer .company-name {
+        display: none;
+    }
+
+    .footer .menu {
+        text-align: right;
+        padding-right: 9rem;
+    }
+}
+
