@@ -47,7 +47,7 @@
             centrada en la historia de cinco niños con un férreo objetivo común,
             luchando contra una realidad incómoda.
           </p>
-          <small
+          <small class="last-text"
             >Todos los campos marcados con
             <span class="asterisk">&#42;</span> son obligatorios</small
           >
@@ -57,7 +57,13 @@
         <form action="">
           <label for="Name">
             <span>Nombre completo <span class="asterisk">&#42;</span></span>
-            <input type="text" id="name" placeholder="Nombre..." />
+            <input
+              type="text"
+              class="forms"
+              id="name"
+              placeholder="Nombre..."
+              required
+            />
           </label>
         </form>
         <form action="">
@@ -65,24 +71,39 @@
             <span>Email <span class="asterisk">&#42;</span></span>
             <input
               type="email"
+              class="forms"
               id="email"
               placeholder="nombre.apellidos@mail.com"
+              required
             />
           </label>
         </form>
         <form action="">
           <label for="Telephone">
             <span>Teléfono</span>
-            <input type="number" id="phone" placeholder="Ej: 123456789" />
+            <input
+              type="number"
+              class="forms"
+              id="phone"
+              placeholder="Ej: 123456789"
+            />
           </label>
         </form>
         <form action="">
           <label for="Message">
             <span>Mensaje <span class="asterisk">&#42;</span></span>
-            <input type="text" id="message" placeholder="¿Qué" necesitas? />
+            <input
+              type="text"
+              class="forms"
+              id="message"
+              placeholder="¿Qué necesitas?"
+              required
+            />
           </label>
         </form>
-        <button type="submit">Enviar</button>
+      </section>
+      <section class="button">
+        <button class="send-button" type="submit">Enviar</button>
       </section>
     </main>
 
