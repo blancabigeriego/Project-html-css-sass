@@ -127,10 +127,10 @@ html  {
     width: 30px;
     height: 30px;
     margin-top: 14.2px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     position: absolute;
     bottom: 0;
-    left: 50%;
+    left: 48%;
     top: 100%;
     transform: rotate(45deg);
 } 
@@ -241,10 +241,11 @@ html  {
 
 .footer {
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-top: 1px solid hsla(200, 3%, 34%, 60%);
 }
 
 .footer .company-name, .footer .company-name-resp {
@@ -286,47 +287,91 @@ color: #b8b8b9;
 /* ----------------- PAGE CONTACT: YAIZA------------------ */
 
 .last-text {
-        margin:20px;
+    margin: 1.25rem;
+    font-size: .8rem;
+    display: inline-block;
+    margin: 2rem 0 4rem;
 }
+
+.team {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .asterisk {
-color: var(--aqua);
+    color: var(--aqua);
 }
 
 .forms-contact {
-    font-size: 14px;
-    margin: 15px;
-
+    font-size: .875rem;
+    margin: .938rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
 }
 
 .button {
-    display: flex;
-    justify-content: center;
+    position: relative;
+   
 }
 
 .send-button {
     background-color: var(--dark-green);
-    height: 45px;
-    width: 290px;
+    height: 2.813rem;
+    width: 12rem;
     border:none;
-    border-radius: 4px;
-    margin: 30px 0 0;
+    border-radius: .25rem;
+    margin: 1.875rem 0 0;
     color: white;
     text-transform: uppercase;
     text-align: center; 
+    position: absolute;
+    bottom: -4rem;
+    left: -1rem;
+}
+
+.text-contact {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5rem;
+    padding: .5rem;
 }
 
 .forms {
-    margin: 7px 0 13px;
-    padding: 7px 15px 15px 15px;
-    display: flex;
+    margin: .438rem 0 1rem;
+    padding: .438rem .938rem .938rem .938rem;
+    display: flex; 
+    width: 20rem;
+    opacity: .8;
 }
 
 
 
+.forms::placeholder {
+    color: #b8b8b9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .875rem;
+}
+
+.email .forms::placeholder {
+    color: black;
+}
+
+.title-contact {
+    font-family: 'Rubik', sans-serif;
+    color: #099d8d;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 6rem;
+    margin: 0;
+}
 
 
 
-
+/* -----------------------------MEDIAQUERIES---------------------------- */
 
 
 @media all and (min-width: 768px) {
@@ -375,7 +420,7 @@ color: var(--aqua);
     }
 
    .rectangle {
-       /* bottom: 3.15rem; */
+       top: calc(92.8% + 2.813rem);
    }
 
     .team .margin-leader {
@@ -398,12 +443,12 @@ color: var(--aqua);
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 1.875rem;
+        gap: 5rem;
       }
 
       .strengths,
       .weaknesses {
-          width: 60%;
+          width: 40%;  
       }
 
     /* ------RESPONSIVE MIRIAM */ 
@@ -472,7 +517,7 @@ color: var(--aqua);
     }
 
 
-        /* FOOTER RESPONSIVE ROCÍO */
+/*---------------FOOTER RESPONSIVE ROCÍO */
 
   
     .footer {
@@ -514,11 +559,28 @@ color: var(--aqua);
 
 @media all and (min-width: 1200px){
 
+    /* ------RESPONSIVE ROCÍO */ 
    
-   
-   
-   
-   
+    .header {
+        display: flex;
+        flex-direction: row;
+        border-radius: 5px;
+        padding-left: 3rem;
+    }
+
+    .header .title {
+    white-space: nowrap;
+    }
+
+    .header .menu {
+        background-color: #099d8d;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 1rem;
+        padding-right: 6rem;
+    }
+
    
    
     /* ------RESPONSIVE YAIZA */ 
@@ -544,18 +606,23 @@ color: var(--aqua);
         margin: 0 auto;
     }
 
-   .rectangle {
-    
-   }
-
-
     
     /* ------RESPONSIVE BLANCA */
     
-    .main .strengths-weaknesses .contain {
+    .main .strengths-weaknesses .margin-leader {
         width: 80%;
+        margin: 0 auto 3rem;
     }
 
+    .main .strengths-weaknesses {
+        padding: 1rem;
+    }
+
+    .titlesw {
+        margin-bottom: 1rem;
+    }
+     
+ 
 
     /* ------RESPONSIVE MIRIAM */
 
@@ -564,7 +631,8 @@ color: var(--aqua);
     }
     
     .person {
-        margin: 2rem 0;
+        margin: 2rem auto;
+        max-width: 90rem;
     }
 
     .person .description{
@@ -578,37 +646,19 @@ color: var(--aqua);
         
     .photo {
         transform: scale(1.4) translate(0, 1.2rem);
-
     }
 
-/* ---------HEADER Y FOOTER RESPONSIVE: ROCÍO */
 
-    .header {
-        display: flex;
-        flex-direction: row;
-        border-radius: 5px;
-        padding-left: 3rem;
-    }
+/* --------------RESPONSIVE ROCÍO */
 
-    .header .title {
-    white-space: nowrap;
-    }
-
-    .header .menu {
-        background-color: #099d8d;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        gap: 1rem;
-        padding-right: 6rem;
-    }
-
+   
     .footer {
+        margin-top: 5rem;
         display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
     }
 
     .footer .company-name-logo {
