@@ -282,6 +282,53 @@ color: #b8b8b9;
 
 
 
+
+/* ----------------- PAGE CONTACT: YAIZA------------------ */
+
+.last-text {
+        margin:20px;
+}
+.asterisk {
+color: var(--aqua);
+}
+
+.forms-contact {
+    font-size: 14px;
+    margin: 15px;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.send-button {
+    background-color: var(--dark-green);
+    height: 45px;
+    width: 290px;
+    border:none;
+    border-radius: 4px;
+    margin: 30px 0 0;
+    color: white;
+    text-transform: uppercase;
+    text-align: center; 
+}
+
+.forms {
+    margin: 7px 0 13px;
+    padding: 7px 15px 15px 15px;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
 @media all and (min-width: 768px) {
 
    
@@ -504,9 +551,9 @@ color: #b8b8b9;
 
     
     /* ------RESPONSIVE BLANCA */
-
-    .strengths-weaknesses .text {
-        color: black;  
+    
+    .main .strengths-weaknesses .contain {
+        width: 80%;
     }
 
 
