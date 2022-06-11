@@ -565,12 +565,13 @@ color: #b8b8b9;
     }
 
    .rectangle {
+        transform: scale(1.3) rotate(45deg);
        top: calc(92.8% + 2.813rem);
-   }
+     }
 
     .team .margin-leader {
         margin: 45px 45px 60px 45px;
-    }
+     }
     
     .text {
         opacity: 0.67;
