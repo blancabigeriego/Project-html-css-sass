@@ -335,6 +335,10 @@ html  {
 .link{
     color: var(--dark-green);
     text-decoration: none;
+}
+
+.link-with-point::before{
+    content: '•';
     padding: 10px;
 }
 
