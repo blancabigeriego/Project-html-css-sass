@@ -332,9 +332,13 @@ html  {
     gap: 1.25rem;
 }
 
-.link{
+.socialmedia .link{
     color: var(--dark-green);
     text-decoration: none;
+}
+
+.socialmedia .link:hover{
+    color: var(--aqua);
 }
 
 .link-with-point::before{
