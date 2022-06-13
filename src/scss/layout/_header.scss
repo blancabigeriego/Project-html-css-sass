@@ -1,5 +1,97 @@
-// .page__header {
-//   display: flex;
-//   justify-content: space-evenly;
-//   margin-bottom: 3rem;
-// }
+/* --------- HEADER: ROCÍO */
+
+.header {
+  background-color: rgba(9, 159, 144, 0.884);
+  color: white;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Rubik';
+  text-transform: uppercase;
+  border-radius: 5px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.header .title {
+  margin: .938rem 5rem;
+  line-height: 1.875rem;
+}
+
+.header .menu {
+  background-color: hsla(174, 83%, 46%, 0.685);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.header .link-menu {
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.link-menu:hover {
+  color: gainsboro;
+}
+
+
+@media all and (min-width: 768px) {
+  /* ------RESPONSIVE ROCÍO */
+ 
+  .header {
+      display: flex;
+      flex-direction: row;
+      border-radius: 0.313rem;
+      /* padding-left: 3rem; */
+  }
+
+  .header .title {
+     white-space: nowrap;
+  }
+
+  .header .menu {
+      background-color:#099d8e36;
+      font-size: .938rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      gap: 2rem;
+      padding-right: 3rem;
+  }
+}
+
+
+@media all and (min-width: 1200px){
+
+  /* ------RESPONSIVE ROCÍO */ 
+ 
+  .header {
+      display: flex;
+      flex-direction: row;
+      border-radius: 5px;
+      padding-left: 3rem;
+  }
+
+  .header .title {
+  white-space: nowrap;
+  }
+
+  .header .menu {
+      background-color: #099d8e3a;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      gap: 1rem;
+      padding-right: 6rem;
+  }
+
+}

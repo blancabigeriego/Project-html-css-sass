@@ -1,8 +1,119 @@
-// .page__footer {
-//   position: fixed;
-//   left: 0;
-//   bottom: 0;
-//   width: 100vw;
-//   padding: 1rem;
-//   color: $color-secondary;
-// }
+/*---------ROCÍO: FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-top: 1px solid hsla(200, 3%, 34%, 60%);
+}
+
+.footer .company-name, .footer .company-name-resp {
+padding: 1rem;
+color: #b8b8b9;
+
+}
+
+.footer .logo, .footer .logo-resp {
+    width: 10rem;
+    padding-bottom: 2rem;
+}
+.footer .company-name-logo {
+    display: none;
+}
+
+.footer .menu {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.footer .link-menu {
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-weight: 500;
+}
+
+.footer .link-menu:hover {
+    color: gainsboro;
+}
+
+
+@media all and (min-width: 768px) {
+
+    /*---------------FOOTER RESPONSIVE ROCÍO */
+    
+      
+        .footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+    
+        .footer .company-name-logo {
+            display: block;
+            padding-left: 2.8rem;
+            padding-bottom: 2rem;
+            padding-top: 2rem;
+        }
+    
+        .footer .logo, .footer .company-name {
+            display: none;
+        }
+    
+        .company-name-resp {
+            font-size: 0.8rem;
+        }
+    
+        .logo-resp {
+            width: 7rem;
+        }
+    
+        .footer .menu {
+            text-align: right;
+            padding-right: 4rem;
+            gap: .5rem;
+            font-size: .87rem;
+        }
+    }
+    
+    @media all and (min-width: 1200px){
+
+        /* --------------RESPONSIVE ROCÍO */
+        
+           
+            .footer {
+                margin-top: 5rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                gap: 1rem;
+            }
+        
+            .footer .company-name-logo {
+                display: block;
+                padding-left: 7rem;
+                padding-bottom: 2rem;
+                padding-top: 2rem;
+            }
+        
+            .footer .logo, .footer .company-name {
+                display: none;
+            }
+        
+            .footer .menu {
+                text-align: right;
+                padding-right: 9rem;
+            }
+        }
+        
+
+
+

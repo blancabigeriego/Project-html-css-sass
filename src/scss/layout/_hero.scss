@@ -1,0 +1,67 @@
+/* ------ HERO: YAIZA */
+
+.hero {
+    background-image: url(../images/hero-image.jpg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    width: 100%;
+    height: 26.313rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.rectangle-hero {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    transform: translate(0%, 50%);
+}
+
+.claim {
+    height: 3.125rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: .875rem .938rem 1rem .938rem;
+    line-height: 1.5rem;
+    letter-spacing: .02rem;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+
+
+@media all and (min-width: 768px) {
+
+    /* ------RESPONSIVE YAIZA */ 
+
+    .rectangle-hero {
+        width: 40%;
+        opacity: 80%;
+        margin-left: 2.823rem;
+        transform: none;
+        
+    }
+}
+
+@media all and (min-width: 1200px){
+
+    /* ------RESPONSIVE YAIZA */ 
+    
+   
+    .rectangle-hero{
+        width: 44%;
+        opacity: 0.8;
+        transform: none;
+        margin-left: 7rem;
+    }
+
+    .claim {
+        font-size: x-large;
+        line-height: 1.8rem;
+    }
+
+
+}
