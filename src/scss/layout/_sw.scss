@@ -2,10 +2,13 @@
 /* -----------STRENGTHS & WEAKNESSES: BLANCA */
 
 .main .strengths-weaknesses {
-    background-color: rgba(183, 183, 184, 0.274);
+    background-color: #b8b8b9 ;
     padding: 0 .3rem 2.813rem;
     
+    
+    
 }
+
 
 .main .titlesw {
     color: $dark-green;
@@ -21,6 +24,8 @@
     color: #54585a;
     text-align: center;
     padding-bottom: .5rem;
+    margin: 0.938rem;
+    
 }
 
 
@@ -28,13 +33,14 @@
 
 
     /* ------RESPONSIVE BLANCA */
-        
-    .main .strengths-weaknesses .margin-leader {
+    
+      .main .strenghts-weaknesses .container-sw {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 5rem;
       }
+
 
       .strengths,
       .weaknesses {
@@ -52,7 +58,7 @@
             max-width: 40rem;
        }
        
-        .main .strengths-weaknesses .margin-leader {
+        .main .strengths-weaknesses .container-sw {
             width: 80%;
             margin: 0 auto 3rem;
         }
