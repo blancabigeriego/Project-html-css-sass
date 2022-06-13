@@ -34,21 +34,27 @@
 
     /* ------RESPONSIVE BLANCA */
     
-      .main .strenghts-weaknesses .container-sw {
+      .strengths-weaknesses {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center
         gap: 5rem;
       }
 
-
-      .strengths,
-      .weaknesses {
-          width: 40%;  
+      .strengths, .weaknesses{
+        width: 40%;
+       
       }
+      .titlesw .highlight{
+        margin-top: 2.813rem;
+      }
+
+      .text .textsw {
+        margin: 0.938rem 0rem 3.75rem 2.813rem;
+      }
+
+     
     }
-
-
     @media all and (min-width: 1200px){
 
         /* ------RESPONSIVE BLANCA */
@@ -58,17 +64,25 @@
             max-width: 40rem;
        }
        
-        .main .strengths-weaknesses .container-sw {
-            width: 80%;
+        .main .strengths-weaknesses {
+            width: 100%;
             margin: 0 auto 3rem;
         }
-    
+
+        .titlesw .highlight{
+            margin: 2.813rem auto 0.938rem auto;
+          }
+
         .main .strengths-weaknesses {
             padding: 1rem;
         }
     
         .titlesw {
             margin-bottom: 1rem;
+        }
+
+        .text .textsw {
+            margin-bottom: 3.75rem;
         }
     }    
 
