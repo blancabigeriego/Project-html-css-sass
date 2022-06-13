@@ -139,7 +139,6 @@ table {
 
 :root{
     --dark-green: #099d8d;
-    --light-green: #14d9c4;
     --aqua: #14d9c4;
     }
 
@@ -237,7 +236,7 @@ html  {
 
 .team {
     background-color: white;
-    width: 100;
+
     margin-top: 1rem;
     margin-bottom: 1.875rem;
 }
@@ -257,6 +256,18 @@ html  {
     text-align: center;
 }
 
+.last-text {
+    margin: 1.25rem;
+    font-size: .8rem;
+    display: inline-block;
+    margin: 2rem 0 4rem;
+}
+
+.team {
+    margin: 0 auto;
+    text-align: center;
+} 
+
 .team .team-text1 {
     margin-top: .938rem;
     padding-bottom: .938rem;
@@ -275,7 +286,7 @@ html  {
 } 
 
 .team .margin-leader {
-    margin: 2rem auto;
+    margin: 2rem;
 }
 
 
@@ -431,18 +442,6 @@ color: #b8b8b9;
 
 /* ----------------- PAGE CONTACT: YAIZA------------------ */
 
-.last-text {
-    margin: 1.25rem;
-    font-size: .8rem;
-    display: inline-block;
-    margin: 2rem 0 4rem;
-}
-
-.team {
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
-}
 
 .asterisk {
     color: var(--aqua);
