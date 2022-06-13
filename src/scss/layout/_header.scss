@@ -1,5 +1,70 @@
-.page__header {
+/* --------- HEADER: ROCÍO */
+
+.header {
+  background-color: $dark-green;
+  opacity: 0.95;
+  color: white;
+  top: 0;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-secondary;
+  text-transform: uppercase;
+  border-radius: 5px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    border-radius: 0.313rem;
+  }
+
+  @media all and (min-width: 1200px) {
+    border-radius: 5px;
+    padding-left: 3rem;
+  }
+}
+
+.header .title {
+  margin: 0.938rem 5rem;
+  line-height: 1.875rem;
+
+  @media all and (min-width: 768px) {
+    white-space: nowrap;
+  }
+}
+
+.header .menu {
+  background-color: $aqua;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+
+  @media all and (min-width: 768px) {
+    background-color: $dark-green;
+    font-size: 0.938rem;
+    justify-content: flex-end;
+    gap: 2rem;
+    padding-right: 3rem;
+  }
+
+  @media all and (min-width: 1200px) {
+    gap: 1rem;
+    padding-right: 6rem;
+  }
+}
+
+.header .link-menu {
+  font-family: $font-secondary;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.link-menu:hover {
+  color: gainsboro;
 }

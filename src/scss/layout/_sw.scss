@@ -1,0 +1,80 @@
+
+/* -----------STRENGTHS & WEAKNESSES: BLANCA */
+
+.main .strengths-weaknesses {
+    background-color: #b8b8b9 ;
+    padding: 0 .3rem 2.813rem;
+
+    @media all and (min-width: 768px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+      }
+    @media all and (min-width: 1200px) {
+        width: 100%;
+        margin: 0 auto 3rem;
+        padding: 1rem;
+    }
+}
+
+
+.main .titlesw {
+    color: $dark-green;
+    font-size: 1.375rem;
+    text-align: center;
+    font-weight: 700;
+    line-height: 2.813rem;
+    padding-top: 1.875rem;
+
+    @media all and (min-width: 768px) {
+    
+        margin-top: 2.813rem; }
+
+        @media all and (min-width: 1200px) {
+            margin: 2.813rem auto 0.938rem auto;
+           
+                margin-bottom: 1rem;
+            }
+
+    }
+    
+      
+    .strengths, .weaknesses{
+        @media all and (min-width: 768px) {
+            width: 40%;
+        }
+        @media all and (min-width: 1200px) {
+            
+            max-width: 40rem;
+
+        }
+
+    } 
+
+
+.main .textsw {
+    line-height: 1.5rem;
+    color: #54585a;
+    text-align: center;
+    padding-bottom: .5rem;
+    margin: 0.938rem;
+
+    @media all and (min-width: 768px) {
+        
+            margin: 0.938rem 0rem 3.75rem 2.813rem;
+    }
+    @media all and (min-width: 1200px) {
+        margin-bottom: 3.75rem;
+
+    }
+    }
+    
+
+
+
+ 
+
+
+
+

@@ -1,0 +1,72 @@
+/* ----------------- PAGE CONTACT: YAIZA------------------ */
+
+
+.asterisk {
+    color: $aqua;
+}
+
+.forms-contact {
+    font-size: .875rem;
+    margin: .938rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+.button {
+    position: relative;
+   
+}
+
+.send-button {
+    background-color: $dark-green;
+    height: 2.813rem;
+    width: 12rem;
+    border:none;
+    border-radius: .25rem;
+    margin: 1.875rem 0 0;
+    color: white;
+    text-transform: uppercase;
+    text-align: center; 
+    position: absolute;
+    bottom: -4rem;
+    left: -1rem;
+}
+
+.text-contact {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5rem;
+    padding: .5rem;
+}
+
+.forms {
+    margin: .438rem 0 1rem;
+    padding: .438rem .938rem .938rem .938rem;
+    display: flex; 
+    width: 20rem;
+    opacity: .8;
+}
+
+
+
+.forms::placeholder {
+    color: #b8b8b9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .875rem;
+}
+
+.email .forms::placeholder {
+    color: black;
+}
+
+.title-contact {
+    font-family: 'Rubik', sans-serif;
+    color: #099d8d;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 6rem;
+    margin: 0;
+}
