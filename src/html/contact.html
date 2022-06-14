@@ -30,21 +30,17 @@
           <img class="image-hero" src="./images/" alt="" />
         </div>
       </section>
-      <section class="team" id="team">
-        <div class="people">
-          <h2 class="title-contact">contacto</h2>
-          <p class="text-contact">
-            Contacta con nosotras si quieres vencer a tu demogorgon personal.
-            Creenos si te decimos que tenemos la solución. Y si no...no worries,
-            somos expertas en buscarla.
-          </p>
-
-          <p class="text-contact">¡Te esperamos!.</p>
-          <small class="last-text"
-            >Todos los campos marcados con
-            <span class="asterisk">&#42;</span> son obligatorios</small
-          >
-        </div>
+      <section class="contact-intro" id="contact-intro">
+        <h2 class="title-contact">contacto</h2>
+        <p class="text-contact">
+          Contacta con nosotras si quieres vencer a tu demogorgon personal.
+          Creenos si te decimos que tenemos la solución. Y si no...
+          <em>no worries</em>, somos expertas en buscarla. ¡Te esperamos!
+        </p>
+        <small class="last-text"
+          >Todos los campos marcados con <span class="asterisk">&#42;</span> son
+          obligatorios</small
+        >
       </section>
       <section class="section-forms">
         <form
@@ -63,29 +59,30 @@
               required
             />
           </label>
-          <label for="email" class="label">
-            Email <span class="asterisk">&#42;</span>
-            <input
-              type="email"
-              class="email"
-              id="email"
-              name="email"
-              value="nombre.apellidos@mail.com"
-              required
-            />
-          </label>
+          <fieldset class="email-phone">
+            <label for="email" class="label">
+              Email <span class="asterisk">&#42;</span>
+              <input
+                type="email"
+                class="email"
+                id="email"
+                name="email"
+                value="nombre.apellidos@mail.com"
+                required
+              />
+            </label>
 
-          <label for="phone" class="label">
-            Teléfono
-            <input
-              type="tel"
-              class="phone"
-              id="phone"
-              name="phone"
-              placeholder="Ej: 123456789"
-            />
-          </label>
-
+            <label for="phone" class="label">
+              Teléfono
+              <input
+                type="tel"
+                class="phone"
+                id="phone"
+                name="phone"
+                placeholder="Ej: 123456789"
+              />
+            </label>
+          </fieldset>
           <label for="message" class="label">
             Mensaje <span class="asterisk">&#42;</span>
             <input
