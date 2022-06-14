@@ -2,14 +2,14 @@
 /* -----------STRENGTHS & WEAKNESSES: BLANCA */
 
 .main .strengths-weaknesses {
-    background-color: #b8b8b9 ;
+    background-color: #b8b8b931 ;
     padding: 0 .3rem 2.813rem;
 
     @media all and (min-width: 768px){
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 5rem;
+        gap: 3rem;
       }
     @media all and (min-width: 1200px) {
         width: 100%;
@@ -32,28 +32,27 @@
         margin-top: 2.813rem; }
 
         @media all and (min-width: 1200px) {
-            margin: 2.813rem auto 0.938rem auto;
-           
+                margin: 2.813rem auto 0.938rem auto;
                 margin-bottom: 1rem;
             }
 
     }
     
       
-    .strengths, .weaknesses{
-        @media all and (min-width: 768px) {
-            width: 40%;
-        }
-        @media all and (min-width: 1200px) {
-            
-            max-width: 40rem;
+.strengths, .weaknesses {
 
-        }
+    @media all and (min-width: 768px) {
+        width: 40%;
+    }
+    
+    @media all and (min-width: 1200px) {
+        max-width: 40rem;
+    }
 
-    } 
+} 
 
 
-.main .textsw {
+.main .strengths-weaknesses .textsw {
     line-height: 1.5rem;
     color: #54585a;
     text-align: center;
@@ -61,14 +60,13 @@
     margin: 0.938rem;
 
     @media all and (min-width: 768px) {
-        
-            margin: 0.938rem 0rem 3.75rem 2.813rem;
+            // margin: 0.938rem 0rem 3.75rem 2.813rem;
     }
+
     @media all and (min-width: 1200px) {
         margin-bottom: 3.75rem;
-
     }
-    }
+}
     
 
 
