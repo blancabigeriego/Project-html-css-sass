@@ -1,51 +1,48 @@
-
-/* ------TEAMS: SANDRA */
-
 .team {
     background-color: white;
-    margin-top: 1rem;
-    margin-bottom: 1.875rem;
     margin: 0 auto;
     text-align: center;
 
     & .title-team {
-        font-family: 'Rubik', sans-serif;
+        font-family: $font-secondary;
         color: $aqua;
         font-size: 1.5rem;
         line-height: 2.813rem;
         font-weight: 500;
         text-align: center;
-        margin-top: 1.875rem;
+        padding-top: 46px;
+
         @media all and (min-width: 768px) {   
             color: $dark-green;
-            margin: 0;
-        } 
-    }
+            padding: 0;
+            } 
+        }
 
     & .text {
         line-height: 24px;
         text-align: center;
+        margin: 15px 15px 30px;
+
+        & .cursive {
+            font-style: oblique;
+        }
+
         @media all and (min-width: 768px) {   
             opacity: 0.67;
         
         @media all and (min-width: 1200px) {
-            max-width: 60%;
+            max-width: 35%;
             margin: 0 auto; 
             }
         }
     }
 
 
-    & .team-text1 {
-        margin-top: .938rem;
-        padding-bottom: .938rem;
-    }
-
     & .margin-leader {
         margin: 0px 15px 30px 15px;
         position: relative;
         @media all and (min-width: 768px) {
-            margin: 45px 45px; 
+            margin: 45px 45px 60px; 
         }
     }
 }
@@ -56,12 +53,12 @@
     background-color: rgb(255, 255, 255);
     position: absolute;
     bottom: 0;
-    top: calc(100% + 1.875rem - 0.928rem);
-    left: calc(50% - 0.928rem);
+    top: calc(100% + 30px - 15px);
+    left: calc(50% - 25px);
     transform: rotate(45deg);
+
     @media all and (min-width: 768px) {
-        transform: scale(1.1) rotate(45deg);
-        top: calc(92.8% + 2.813rem);
+        top: calc(100% + 45px);
     } 
 }
 
