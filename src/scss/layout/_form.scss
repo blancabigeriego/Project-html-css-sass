@@ -25,6 +25,7 @@
 
 .asterisk {
   color: $aqua;
+  font-weight: 700;
 }
 
 .text-contact {
@@ -83,14 +84,16 @@
 }
 
 .message {
-  height: 105px;
+  padding-bottom: 75px;
 }
 
-.forms::placeholder {
+
+::placeholder {
   color: $font-color-secondary;
   font-family: $font-main;
-  font-size: 0.875rem;
+  font-size: .8rem;
 }
+
 
 .send-button {
   background-color: $dark-green;
