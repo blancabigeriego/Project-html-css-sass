@@ -24,76 +24,76 @@
 
   <body>
     <include src="./partials/header.html"></include>
-    <main class="main">
+    <main class="contac-main">
       <section class="hero">
         <div class="rectangle-hero">
           <img class="image-hero" src="./images/" alt="" />
         </div>
       </section>
-      <section class="team" id="team">
-        <div class="people">
-          <h2 class="title-contact">contacto</h2>
-          <p class="text-contact">
-            Contacta con nosotras si quieres vencer a tu demogorgon personal.
-            Creenos si te decimos que tenemos la solución. Y si no...no worries,
-            somos expertas en buscarla.
-          </p>
-
-          <p class="text-contact">¡Te esperamos!.</p>
-          <small class="last-text"
-            >Todos los campos marcados con
-            <span class="asterisk">&#42;</span> son obligatorios</small
-          >
-        </div>
+      <section class="contact-intro" id="contact-intro">
+        <h2 class="title-contact">contacto</h2>
+        <p class="text-contact">
+          Contacta con nosotras si quieres vencer a tu demogorgon personal.
+          Creenos si te decimos que tenemos la solución. Y si no...
+          <em>no worries</em>, somos expertas en buscarla. ¡Te esperamos!
+        </p>
+        <small class="last-text"
+          >Todos los campos marcados con <span class="asterisk">&#42;</span> son
+          obligatorios</small
+        >
       </section>
       <section class="section-forms">
         <form
-          action="https://formspree.io/f/{form_id}"
+          action="https://formspree.io/f/mjvlzlkp"
           method="post"
           class="forms"
         >
-          <label for="name">
+          <label for="name" class="label">
             Nombre completo <span class="asterisk">&#42;</span>
             <input
               type="text"
               class="name"
               id="name"
+              name="name"
               placeholder="Nombre..."
               required
             />
           </label>
-          <label for="email">
-            Email <span class="asterisk">&#42;</span>
-            <input
-              type="email"
-              class="email"
-              id="email"
-              value="nombre.apellidos@mail.com"
-              required
-            />
-          </label>
+          <fieldset class="email-phone">
+            <label for="email" class="label">
+              Email <span class="asterisk">&#42;</span>
+              <input
+                type="email"
+                class="email"
+                id="email"
+                name="email"
+                value="nombre.apellidos@mail.com"
+                required
+              />
+            </label>
 
-          <label for="phone">
-            Teléfono
-            <input
-              type="phone"
-              class="phone"
-              id="phone"
-              placeholder="Ej: 123456789"
-            />
-          </label>
-
-          <label for="message">
+            <label for="phone" class="label">
+              Teléfono
+              <input
+                type="tel"
+                class="phone"
+                id="phone"
+                name="phone"
+                placeholder="Ej: 123456789"
+              />
+            </label>
+          </fieldset>
+          <label for="message" class="label">
             Mensaje <span class="asterisk">&#42;</span>
             <input
               type="text"
               class="message"
               id="message"
+              name="message"
               placeholder="¿Qué necesitas?"
               required
             />
           </label>
-
           <input type="submit" value="Enviar" class="send-button" />
         </form>
       </section>

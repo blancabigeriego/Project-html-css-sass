@@ -1,7 +1,7 @@
 /* ----------PEOPLE: MIRIAM */
 
 .margin-leader {
-    margin: 0rem 1rem;
+    margin: 0 16px;
     max-width: 100vw;
     position: relative;
 }
@@ -12,10 +12,10 @@
     font-weight: 500;
     text-align: center;
     font-family: 'rubik', sans-serif;
-    margin: 1.875rem 0;
+    margin: 30px 0;
     @media all and (min-width: 768px) {
-        margin: 2.813rem 0
-        2.563rem 0;
+        margin: 45px 0
+        41px 0;
     }
 }
 
@@ -27,14 +27,14 @@
 }
 
 .person .photo{
-    height: 11.25rem;
-    width: 11.25rem;
+    height: 180px;
+    width: 180px;
     @media all and (min-width: 768px){
         height: 205px;
         width: 205px;
     }
-    border: solid 0.3125rem rgba(0, 0, 0, 0.08);
-    border-radius: 0.25rem;
+    border: solid 5px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
 }
 
 .margin-leader .name{
@@ -43,21 +43,21 @@
     font-size: 1.25rem;
     font-weight: 500;
     text-align: center;
-    line-height: 2.813rem;
-    padding: 0.938rem 1.25rem 0;
+    line-height: 45px;
+    padding: 15px 20px 0;
 }
 
 .person .description {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    line-height: 1.5rem;
-    margin-bottom: 0.938rem;
+    line-height: 24px;
+    margin-bottom: 15px;
 }
 
 .socialmedia {
     display: flex;
     justify-content: center;
-    margin-bottom: 2.813rem;
+    margin-bottom: 45px;
 }
 
 .socialmedia .item {
@@ -71,7 +71,7 @@
 
 .link-with-point::before{
     content: '•';
-    font-size: 12px;
+    font-size: 0.75rem;
     padding: 12px;
     color: #54585a;
 }
@@ -79,6 +79,7 @@
 // .socialmedia .link:hover{
 //     color: $aqua;
 // }
+/*comentado el hover porque destaca también los puntitos*/
 
 @media all and (min-width: 768px) {
 
@@ -99,8 +100,8 @@
     }
 
     .photo-container{
-        height: 14rem;
-        width: 14rem;
+        height: 224px;
+        width: 224px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -109,7 +110,7 @@
     .person-left .text-container{
      margin-left: 38.5px;
      max-width: 442px;
-        }
+    }
 
     .person-right .text-container{
     margin-right: 38.5px;
@@ -156,17 +157,17 @@
     /* ------RESPONSIVE MIRIAM */
 
     .margin-leader {
-        margin: 3.125rem 8.625rem;
+        margin: 50px 138px;
     }
 
     .person {
         margin: 0 auto;
         margin-bottom: 60px;
-        max-width: 80rem;
+        max-width: 1280px;
     }
 
     .person .description{
-        max-width: 27.4375rem;
+        max-width: 439px;
         padding: 0;
     }
 
@@ -186,6 +187,4 @@
         height: 278px;
         width: 278px;
     }
-
-
-    }
+}
