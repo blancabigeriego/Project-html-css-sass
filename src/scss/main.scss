@@ -15,7 +15,7 @@
 }
 
 .main .contact-banner {
-  color: var(--dark-green);
+  color: $dark-green;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 24px;
@@ -70,7 +70,7 @@
 }
 
 .send-button {
-  background-color: #099d8d;
+  background-color: $dark-green;
   position: relative;
   color: white;
   border: none;
