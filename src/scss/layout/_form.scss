@@ -44,7 +44,7 @@
   text-align: center;
 }
 
-.forms {
+.section-forms {
   font-size: 0.875rem;
   margin-top: 50px;
   margin-bottom: 8rem;
@@ -52,11 +52,7 @@
   flex-direction: column;
   gap: 15px;
   line-height: 1.5rem;
-  align-items: flex-start;
-
-  @media all and (min-width: 768px) {
-    align-items: center;
-  }
+  align-items: center;
 }
 
 .label {
@@ -135,4 +131,8 @@
   @media all and (min-width: 1200px) {
     width: 162px;
   }
+}
+
+.send-button:hover {
+  background-color: $aqua;
 }
