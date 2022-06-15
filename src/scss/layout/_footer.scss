@@ -7,6 +7,10 @@
 
   @media all and (min-width: 768px) {
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 1.875rem;
+    padding-bottom: 3.5rem;
+    row-gap: 0.938rem;
   }
 
   @media all and (min-width: 1200px) {
@@ -20,6 +24,15 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  @media all and (min-width: 768px) {
+    justify-content: flex-start;
+    padding-left: 2.813rem;
+  }
+
+  @media all and (min-width: 1200px) {
+    padding-left: 8.625rem;
+  }
 }
 
 .footer .container-logo {
@@ -27,13 +40,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   @media all and (min-width: 768px) {
-    width: auto;
+    width: fit-content;
+    align-items: flex-start;
+    padding-left: 2.813rem;
+  }
+
+  @media all and (min-width: 1200px) {
+    padding-left: 8.625rem;
   }
 }
 
 .footer .logo {
-  width: 10rem;
+  width: 7.244rem;
 }
 
 .footer .menu {
@@ -42,17 +62,18 @@
   justify-content: center;
   align-items: center;
   line-height: 1.5rem;
-  text-align: center;
 
   @media all and (min-width: 768px) {
-    text-align: left;
-    // padding-right: 4rem;
+    padding-right: 45px;
     // gap: 0.5rem;
     font-size: 0.87rem;
+    grid-row: span 2;
+    align-items: flex-end;
+    line-height: 1.7rem;
   }
 
   @media all and (min-width: 1200px) {
-    // padding-right: 9rem;
+    padding-right: 8.625rem;
   }
 }
 
