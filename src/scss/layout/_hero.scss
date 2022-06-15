@@ -1,8 +1,8 @@
 /* ------ HERO: YAIZA */
 
 .hero {
-    background-image: url(../images/hero-image.jpg);
-    background-size: 150%;
+    background-image: url(../images/stranger-coders.jpg);
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-clip: content-box;
@@ -35,22 +35,16 @@
 
 @media all and (min-width: 768px) {
 
-    /* ------RESPONSIVE YAIZA */ 
-
     .rectangle-hero {
         width: 40%;
         opacity: 80%;
         margin-left: 2.823rem;
         transform: none;
-        
     }
 }
 
 @media all and (min-width: 1200px){
 
-    /* ------RESPONSIVE YAIZA */ 
-    
-   
     .rectangle-hero{
         width: 44%;
         opacity: 0.8;
