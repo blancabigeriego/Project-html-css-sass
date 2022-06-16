@@ -29,11 +29,6 @@
 
         @media all and (min-width: 768px) {   
             opacity: 0.67;
-        
-        @media all and (min-width: 1200px) {
-            max-width: 35%;
-            margin: 0 auto; 
-            }
         }
     }
 
@@ -44,6 +39,9 @@
         @media all and (min-width: 768px) {
             margin: 45px 45px 60px; 
         }
+        @media all and (min-width: 1200px) {
+            margin: 45px 300px 60px 299px; 
+            }
     }
 }
 
