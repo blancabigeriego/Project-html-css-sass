@@ -27,67 +27,60 @@
       <a href="./contact.html" class="link-menu" target="_blank">Contacto</a>
     </nav>
   </header>
-
-  <main class="main">
+  <main class="contac-main">
     <section class="hero">
       <div class="rectangle-hero">
         <img class="image-hero" src="./images/" alt="" />
       </div>
     </section>
-    <section class="team" id="team">
-      <div class="people">
-        <h2 class="title-contact">contacto</h2>
-        <p class="text-contact">
-          Contacta con nosotras si quieres vencer a tu demogorgon personal. Creenos si te decimos que tenemos la
-          solución. Y si no...no worries,
-          somos expertas en buscarla.
-        <p class="text-contact">
-          ¡Te esperamos!.
-        </p>
-        <small class="last-text">Todos los campos marcados con
-          <span class="asterisk">&#42;</span> son obligatorios</small>
-      </div>
+    <section class="contact-intro" id="contact-intro">
+      <h2 class="title-contact">contacto</h2>
+      <p class="text-contact">
+        Contacta con nosotras si quieres vencer a tu demogorgon personal.
+        Créenos si te decimos que tenemos la solución. Y si no...
+        <span class="cursive">no worries</span>, somos expertas en buscarla. ¡Te esperamos!
+      </p>
+      </p>
+      <small class="last-text">Todos los campos marcados con <span class="asterisk">&#42;</span> son
+        obligatorios</small>
     </section>
-    <section class="forms-contact">
-      <form action="">
-        <label for="Name">
-          <span>Nombre completo <span class="asterisk">&#42;</span></span>
-          <input type="text" class="forms" id="name" placeholder="Nombre..." required />
+    <section class="section-forms">
+      <form action="https://formspree.io/f/mjvlzlkp" method="post" class="forms">
+        <label for="name" class="label">
+          Nombre completo <span class="asterisk">&#42;</span>
+          <input type="text" class="name" id="name" name="name" placeholder="Nombre..." required />
         </label>
-      </form>
-      <form action="" class="email">
-        <label for="Email">
-          <span>Email <span class="asterisk">&#42;</span></span>
-          <input type="email" class="forms" id="email" placeholder="nombre.apellidos@mail.com" required />
-        </label>
-      </form>
-      <form action="">
-        <label for="Telephone">
-          <span>Teléfono</span>
-          <input type="number" class="forms" id="phone" placeholder="Ej: 123456789" />
-        </label>
-      </form>
-      <form action="">
-        <label for="Message">
-          <span>Mensaje <span class="asterisk">&#42;</span></span>
-          <input type="text" class="forms" id="message" placeholder="¿Qué necesitas?" required />
-        </label>
-      </form>
-      <section class="button">
-        <button class="send-button" type="submit">Enviar</button>
-      </section>
-    </section>
+        <fieldset class="email-phone">
+          <label for="email" class="label">
+            Email <span class="asterisk">&#42;</span>
+            <input type="email" class="email" id="email" name="email" placeholder="nombre.apellidos@mail.com"
+              required />
+          </label>
 
+          <label for="phone" class="label">
+            Teléfono
+            <input type="tel" class="phone" id="phone" name="phone" placeholder="Ej: 123456789" />
+          </label>
+        </fieldset>
+        <label for="message" class="label message-text">
+          Mensaje <span class="asterisk">&#42;</span>
+          <input type="text" class="message" id="message" name="message" placeholder="¿Qué necesitas?" required />
+        </label>
+        <input type="submit" value="Enviar" class="send-button" />
+      </form>
+    </section>
   </main>
-
-
   <footer class="footer">
     <div class="company-name-logo">
-      <p class="company-name-resp">Stranger Coders ©2022</p>
-      <img class="logo-resp" src="./assets/images/logo-adalab.png" alt="Logo Adalab" />
+      <p class="company-name-resp">Stranger Coders &copy;2022</p>
+      <img
+        class="logo-resp"
+        src="./assets/images/logo-adalab.png"
+        alt="Logo Adalab"
+      />
     </div>
 
-    <p class="company-name">Stranger Coders ©2022</p>
+    <p class="company-name">Stranger Coders &copy;2022</p>
 
     <nav class="menu">
       <a href="./index.html#team" class="link-menu">Equipo</a>
@@ -96,6 +89,7 @@
     </nav>
     <img class="logo" src="./assets/images/logo-adalab.png" alt="Logo Adalab" />
   </footer>
+
 </body>
 
 </html>
