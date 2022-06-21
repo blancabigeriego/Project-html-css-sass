@@ -3,9 +3,12 @@
 .contact-intro {
   margin: 0 15px;
   text-align: center;
+  transition: margin 500ms;
 
   @media all and (min-width: 768px) {
     margin: 15px 120px;
+    transition: margin 500ms;
+    
   }
   @media all and (min-width: 1200px) {
     margin: 45px 450px;
@@ -24,12 +27,12 @@
 }
 
 .asterisk {
-  color: $aqua;
+  color: $ligth-red;
   font-weight: 700;
 }
 
 .text-contact {
-  font-family: $font-main;
+  font-family: $dark-red;
   line-height: 1.5rem;
   padding: 0.5rem;
   margin-bottom: 20px;
@@ -37,7 +40,7 @@
 
 .title-contact {
   font-family: $font-secondary;
-  color: $dark-green;
+  color: $dark-red;
   font-size: 1.5rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -96,24 +99,34 @@
 
 
 .send-button {
-  background-color: $dark-green;
+  background-color: $dark-red;
   height: 2.813rem;
   width: 320px;
   border: none;
   border-radius: 0.25rem;
-  margin: 1.875rem 0 0;
+  margin: 1.875rem 0rem 0rem;
   color: white;
   text-transform: uppercase;
   text-align: center;
+  transition: all 1s;
 
   @media all and (min-width: 768px) {
     width: 206px;
     margin-left: 270px;
+    animation: button 1s;
+
+    @keyframes button {
+      0% {
+        width: 320px;
+        margin: 1.875rem 0rem 0rem;
+      }
+    }
   }
 
   @media all and (min-width: 1200px) {
     width: 278px;
     margin-left: 350px;
+    transition: all 1s;
   }
 }
 
@@ -137,5 +150,5 @@
 }
 
 .send-button:hover {
-  background-color: $aqua;
+  background-color: $ligth-red;
 }

@@ -29,6 +29,7 @@
     margin: 0 auto;
     text-align: center;
     transform: translate(0%, 50%);
+    transition: transform 1s;
 }
 
 .claim {
@@ -51,8 +52,6 @@
         opacity: 90%;
         margin-left: 2.823rem;
         transform: none;
-        
-        
     }
 
     .claim{
@@ -68,11 +67,13 @@
         opacity: 0.9;
         transform: none;
         margin-left: 7rem;
+        
     }
 
     .claim {
         font-size: x-large;
         line-height: 1.8rem;
+        transition: all 1s;
     }
 
 

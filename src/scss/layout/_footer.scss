@@ -4,6 +4,7 @@
   grid-template-rows: 2fr 2fr 3fr;
   grid-template-columns: 1fr;
   border-top: 1px solid $font-color-secondary;
+  transition: margin 1s;
  
   @media all and (min-width: 768px) {
     grid-template-columns: 1fr 1fr;
@@ -62,6 +63,7 @@
   justify-content: center;
   align-items: center;
   line-height: 1.5rem;
+  transition: all 1s;
 
   @media all and (min-width: 768px) {
     padding-right: 2.813rem;
@@ -70,6 +72,7 @@
     grid-row: span 2;
     align-items: flex-end;
     line-height: 1.7rem;
+    transition: all 1s;
   }
 
   @media all and (min-width: 1200px) {
