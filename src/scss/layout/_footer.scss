@@ -4,7 +4,7 @@
   grid-template-rows: 2fr 2fr 3fr;
   grid-template-columns: 1fr;
   border-top: 1px solid $font-color-secondary;
-
+ 
   @media all and (min-width: 768px) {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;

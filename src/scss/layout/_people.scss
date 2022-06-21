@@ -103,6 +103,7 @@
         justify-content: flex-start;
         margin: 0 0 60px 44px;
         text-align: left;
+        transition: all 1s;
     }
 
     .person-right{
@@ -111,6 +112,7 @@
         justify-content: flex-start;
         margin: 0 44px 60px 0;
         text-align: right;
+        transition: all 1s;
     }
 
     .photo-container{
@@ -166,7 +168,7 @@
     }
 }
 
-@media all and (min-width: 1200px){
+@media all and (min-width: 1200px) {
 
     /* ------RESPONSIVE MIRIAM */
 

@@ -11,18 +11,17 @@
   align-items: center;
   font-family: $font-secondary;
   text-transform: uppercase;
-  border-radius: 5px;
   position: fixed;
   width: 100%;
   z-index: 1;
+  
 
   @media all and (min-width: 768px) {
     flex-direction: row;
-    border-radius: 0.313rem;
+    animation: header 2s;
   }
 
   @media all and (min-width: 1200px) {
-    border-radius: 5px;
     padding-left: 3rem;
   }
 }
@@ -50,6 +49,12 @@
     justify-content: flex-end;
     gap: 2rem;
     padding-right: 3rem;
+    animation: header 2s;
+    @keyframes header {
+      0% {
+        padding: 1rem;
+      }
+    }
   }
 
   @media all and (min-width: 1200px) {
