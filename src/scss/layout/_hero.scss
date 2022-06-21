@@ -3,7 +3,8 @@
 .hero {
     background-image: url(../images/stranger-coders.jpg);
     background-size: 100%;
-    background-position: center;
+    background-color: black;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-clip: content-box;
     width: 100%;
@@ -40,6 +41,7 @@
         opacity: 80%;
         margin-left: 2.823rem;
         transform: none;
+        transition: all 1s;
     }
 }
 

@@ -78,10 +78,16 @@
     color: #54585a;
 }
 
-// .socialmedia .link:hover{
-//     color: $aqua;
-// }
-/*comentado el hover porque destaca también los puntitos*/
+.link:hover {
+        color: $aqua;
+    }
+
+
+.socialmedia .link:hover{
+    color: $aqua;
+    font-size: 1.2rem;
+}
+
 
 @media all and (min-width: 768px) {
 
@@ -91,6 +97,7 @@
         justify-content: flex-start;
         margin: 0 0 60px 44px;
         text-align: left;
+        transition: all 1s;
     }
 
     .person-right{
@@ -99,6 +106,7 @@
         justify-content: flex-start;
         margin: 0 44px 60px 0;
         text-align: right;
+        transition: all 1s;
     }
 
     .photo-container{
@@ -157,6 +165,7 @@
 @media all and (min-width: 1200px){
 
     /* ------RESPONSIVE MIRIAM */
+    transition: all 1s;
 
     .margin-leader {
         margin: 50px 138px;

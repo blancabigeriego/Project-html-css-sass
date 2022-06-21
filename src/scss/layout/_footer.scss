@@ -5,7 +5,7 @@
   align-items: center;
   gap: 1rem;
   border-top: 1px solid $font-color-secondary;
-
+ 
   @media all and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
@@ -76,6 +76,7 @@
 
 .footer .logo,
 .footer .company-name {
+
   @media all and (min-width: 768px) {
     display: none;
   }
@@ -83,6 +84,7 @@
 
 .company-name-resp {
   @media all and (min-width: 768px) {
+    transition: font-size 1s;
     font-size: 0.8rem;
   }
 }
