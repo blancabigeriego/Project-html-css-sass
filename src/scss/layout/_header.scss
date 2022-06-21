@@ -1,7 +1,7 @@
 /* --------- HEADER: ROCÍO */
 
 .header {
-  background-color: $dark-green;
+  background-color: $dark-red;
   opacity: 0.95;
   color: white;
   top: 0;
@@ -37,7 +37,7 @@
 }
 
 .header .menu {
-  background-color: $aqua;
+  background-color: $ligth-red;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -45,7 +45,7 @@
   width: 100%;
 
   @media all and (min-width: 768px) {
-    background-color: $dark-green;
+    background-color: $dark-red;
     font-size: 0.938rem;
     justify-content: flex-end;
     gap: 2rem;
@@ -66,5 +66,5 @@
 }
 
 .link-menu:hover {
-  color: gainsboro;
+  color: #fde4e4;
 }

@@ -1,9 +1,10 @@
 /* ------ HERO: YAIZA */
 
 .hero {
-    background-image: url(../images/stranger-coders.jpg);
-    background-size: 100%;
-    background-position: center;
+    background-image: url(../images/logo.jpg);
+    background-size: 80%;
+    background-position: center 70%;
+    background-color: black;
     background-repeat: no-repeat;
     background-clip: content-box;
     width: 100%;
@@ -11,6 +12,16 @@
     margin-bottom: 10px;
     display: flex;
     align-items: flex-end;
+
+    @media all and (min-width: 768px) {
+        background-size: 60%;
+        background-position: center center;  
+    }
+
+    @media all and (min-width: 1200px) {
+        background-size: 50%;
+        background-position: center center;  
+    }
 }
 
 .rectangle-hero {
@@ -37,9 +48,16 @@
 
     .rectangle-hero {
         width: 40%;
-        opacity: 80%;
+        opacity: 90%;
         margin-left: 2.823rem;
         transform: none;
+        
+        
+    }
+
+    .claim{
+        background-color: #fde4e4;
+        color: $dark-red;
     }
 }
 
@@ -47,7 +65,7 @@
 
     .rectangle-hero{
         width: 44%;
-        opacity: 0.8;
+        opacity: 0.9;
         transform: none;
         margin-left: 7rem;
     }

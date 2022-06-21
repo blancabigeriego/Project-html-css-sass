@@ -5,7 +5,7 @@
 
     & .title-team {
         font-family: $font-secondary;
-        color: $aqua;
+        color: $ligth-red;
         font-size: 1.5rem;
         line-height: 2.813rem;
         font-weight: 500;
@@ -13,7 +13,7 @@
         padding-top: 46px;
 
         @media all and (min-width: 768px) {   
-            color: $dark-green;
+            color: $dark-red;
             padding: 0;
             } 
         }
